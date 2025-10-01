@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.output/
+.react-router/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Development files
+.DS_Store
+.vscode/
+.idea/
+.cursor/
+*.log
+*.swp
+*.swo
+*~
+
+# Shopify Hydrogen
+.shopify/
+.cache/
+.hydrogen/
+
+# Generated files
+*.generated.d.ts
+customer-accountapi.generated.d.ts
+storefrontapi.generated.d.ts
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.temp/
+.tmp/
+*.local
+
+# Lock files (keep package-lock.json but ignore yarn.lock if not using)
+# yarn.lock
+# pnpm-lock.yaml
+
+# Build logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# IDE
+.claude/
